@@ -27,8 +27,9 @@ const LoginScreen = () => {
 
   const handleLogin = async () => {
     try {
-  const userCredential = await signInWithEmailAndPassword(auth, 'malikmohsin8239@gmail.com', 'Mohsin@#123');
-    const user = userCredential.user;
+      const userCredential = await signInWithEmailAndPassword(auth, email, password);
+      const user = userCredential.user;
+
 
    console.log("login success  ",user);
       navigation.navigate('Home');

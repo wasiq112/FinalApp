@@ -22,7 +22,7 @@ const SignUpScreen = ({ navigation }) => {
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const user = userCredential.user;
       console.log('User registered successfully:', user);
-      Alert.alert('Success', 'User registered successfully!');
+    
     } catch (error) {
       console.error('Error registering user:', error);
       Alert.alert('Error', error.message);

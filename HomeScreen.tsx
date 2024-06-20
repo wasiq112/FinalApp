@@ -137,7 +137,7 @@ const styles = StyleSheet.create({
   },
   headerText: {
     color: "white",
-    fontSize: 40,
+    fontSize: 28,
     fontWeight: "800",
     textAlign: "left",
   },
@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
   },
   aboutStoreButton: {
     width: 360,
-    height: 130,
+    height: 160,
     backgroundColor: "lightblue",
     marginLeft: 16,
     marginRight: 10,
